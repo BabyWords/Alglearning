@@ -3,7 +3,9 @@ package leetcode.FizzBuzz;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * LeetCode 412
+ */
 class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
