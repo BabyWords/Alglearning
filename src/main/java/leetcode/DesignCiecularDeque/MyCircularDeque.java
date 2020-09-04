@@ -1,10 +1,11 @@
 //package leetcode.DesignCiecularDeque;
 //
 //class MyCircularDeque {
+//    int[] myQueue;
 //
 ///** Initialize your data structure here. Set the size of the deque to be k. */
 //public MyCircularDeque(int k) {
-//
+//    myQueue = new int[k];
 //        }
 //
 ///** Adds an item at the front of Deque. Return true if the operation is successful. */
