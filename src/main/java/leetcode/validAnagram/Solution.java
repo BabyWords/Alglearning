@@ -14,8 +14,8 @@ class Solution {
         if (s.length() != t.length()) {
             return false;
         }
-        HashMap<Character, Integer> stringHashMap = new HashMap<>();
-        HashMap<Character, Integer> stringHashMap2 = new HashMap<>();
+        HashMap<Character, Integer> stringHashMap = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> stringHashMap2 = new HashMap<Character, Integer>();
         for (int i=0;i<s.length();i++){
             stringHashMap.put(s.charAt(i), stringHashMap.getOrDefault(s.charAt(i), 0));
             stringHashMap2.put(t.charAt(i), stringHashMap2.getOrDefault(t.charAt(i), 0));

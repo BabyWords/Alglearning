@@ -16,6 +16,12 @@ class Solution {
         return helper(n, memo);
     }
 
+    /**
+     * 加入了缓存,避免重复计算
+     * @param n
+     * @param memo
+     * @return
+     */
     public int helper(int n,int[] memo){
         if (memo[n]>0) {
             return memo[n];
@@ -29,7 +35,27 @@ class Solution {
         return memo[n];
     }
 
+    /**
+     * 最基本的递归模板,效率比较差,会有很多重复计算
+     * @param n
+     * @return
+     */
+    public int helper2(int n){
+        if (n == 1) {
+            return  1;
+        }
+        if (n==2){
+            return 2;
+        }
+        return helper2(n - 1) + helper2(n - 2);
+    }
 
+
+    /**
+     * 迭代
+     * @param n
+     * @return
+     */
     public int climbStairs2(int n) {
         int cross_one=1,cross_two=2;
         int result=0;

@@ -18,7 +18,7 @@ class Node {
         val = _val;
         children = _children;
     }
-};
+}
 
 
 class Solution {
@@ -28,7 +28,7 @@ class Solution {
      * @return
      */
     public List<Integer> preorder(Node root) {
-        List<Integer> integerList = new ArrayList<>();
+        List<Integer> integerList = new ArrayList<Integer>();
         helper(root, integerList);
         return integerList;
     }
@@ -52,9 +52,9 @@ class Solution {
      * @return
      */
     public List<Integer> preorder2(Node root) {
-        List<Integer> res = new ArrayList<>();
+        List<Integer> res = new ArrayList<Integer>();
         if (root == null) return res;
-        Stack<Node> stack = new Stack<>();
+        Stack<Node> stack = new Stack<Node>();
         stack.push(root);
         while (!stack.isEmpty()) {
             Node cur = stack.pop();
