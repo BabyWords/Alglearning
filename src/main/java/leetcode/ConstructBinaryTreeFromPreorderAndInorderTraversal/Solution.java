@@ -1,6 +1,6 @@
 package leetcode.ConstructBinaryTreeFromPreorderAndInorderTraversal;
 
-import conmmon.TreeNode;
+import common.TreeNode;
 
 class Solution {
 

@@ -1,6 +1,6 @@
 package leetcode.binaryTreeLevelOrderTraversal;
 
-import conmon.TreeNode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

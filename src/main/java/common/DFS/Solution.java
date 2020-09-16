@@ -1,7 +1,7 @@
-package conmon.DFS;
+package common.DFS;
 
 
-import conmon.TreeNode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +19,7 @@ public class Solution {
 
     /**
      * 按层次输出.递归写法
-     *  利用 DFS 达到 BFS 的效果,在 DFS 过程中记下 level,然后将结果按照 level 输出
+     * 利用 DFS 达到 BFS 的效果,在 DFS 过程中记下 level,然后将结果按照 level 输出
      * @param root
      * @param level
      * @param results

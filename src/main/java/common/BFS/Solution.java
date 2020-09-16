@@ -1,6 +1,6 @@
-package conmon.BFS;
+package common.BFS;
 
-import conmon.TreeNode;
+import common.TreeNode;
 
 import java.util.*;
 
