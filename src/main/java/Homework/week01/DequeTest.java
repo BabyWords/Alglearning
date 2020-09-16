@@ -5,6 +5,11 @@ import com.sun.jmx.remote.internal.ArrayQueue;
 import java.util.*;
 
 public class DequeTest {
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
     public  static void main(String[] args) {
         //Stack
         Deque<String> deque= new LinkedList<String>();
